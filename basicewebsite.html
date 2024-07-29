@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #A9A9A9;
+            margin: 0;
+            padding: 0;
+        }
+
+        #Container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        #navbardiv {
+            background-color: #414364;
+            color: rgb(10, 10, 10);
+            text-align: center;
+            padding: 10px 0;
+            background-image: url("https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/iydxtay1mnne2ktw7txe");
+        }
+
+        #divnav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .navitem {
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        #nav1 {
+            margin-top: 30px;
+            font-size: 48px;
+        }
+
+        #nav2 {
+            margin-bottom: 50px;
+            font-size: 24px;
+        }
+
+        #firstdiv {
+            background-color: red;
+            height: 500px;
+            overflow: hidden;
+        }
+
+        .img1 {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        #seconddiv {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .innerimg {
+            text-align: center;
+        }
+
+        .img2 {
+            width: 70%;
+            height: auto;
+            border-radius: 30px;
+        }
+
+        #thirddiv {
+            margin-top: 30px;
+        }
+
+        #fourdiv {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .im3 {
+            width: 100%;
+            height: auto;
+            border-radius: 30px;
+        }
+
+        #fivediv {
+            height: 200px;
+            background-color: rgb(175, 199, 199);
+            text-align: left;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        #fiveinnerdiv {
+            width: 10px;
+            height: 80px;
+            display: flex;
+            gap: 20px;
+            color: white;
+            border: 0cap;
+        }
+
+        #sivdiv {
+            display: flex;
+            height: 300px;
+            background-color: #808187;
+        }
+
+        #zomato1 {
+            margin-left: 30px;
+            margin-top: 40px;
+            width: 50px;
+            height: 50px;
+        }
+
+        #zomato2 {
+            display: flex;
+            margin-left: 40px;
+            margin-top: 40px;
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        /* #zomato1{
+            transform: scale(1.05);
+            border: 1px solid black;
+        } */
+    </style>
+</head>
+
+<body>
+    <div id="Container">
+        <div id="navbardiv">
+            <nav id="divnav">
+                <div class="navitem">Add Restaurant</div>
+                <div class="navitem">Login</div>
+                <div class="navitem">Sign Up</div>
+            </nav>
+            <nav id="nav1">
+                <h1>Zomato</h1>
+            </nav>
+            <nav id="nav2">
+                <div>Discover the best food & drinks in Pune</div>
+            </nav>
+        </div>
+        <div id="firstdiv">
+            <img class="img1" src="https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png"
+                alt="Zomato Banner">
+        </div>
+        <div id="seconddiv">
+            <div class="innerimg">
+                <img class="img2" src="in1.avif" alt="Order Online">
+                <h3>Order Online</h3>
+                <p>Stay Home And order to your doorstep</p>
+            </div>
+            <div class="innerimg">
+                <img class="img2" src="i1.avif" alt="Dining">
+                <h3>Dining</h3>
+                <p>View the city's favourite dining venues</p>
+            </div>
+            <div class="innerimg">
+                <img class="img2" src="i2.avif" alt="Nightlife and Clubs">
+                <h3>Nightlife and Clubs</h3>
+                <p>Explore the city's top nightlife outlets</p>
+            </div>
+        </div>
+        <div id="thirddiv">
+            <h2>Collection</h2>
+            <h3>Explore curated lists of top restaurants, cafes, pubs, and bars in Pune, based on trends</h3>
+            <div id="fourdiv">
+                <div>
+                    <a href="https://www.zomato.com/pune/trending-this-week">
+                        <img class="im3" src="i5.webp" alt="Top Trending Spots">
+                    </a>
+                    <h3>Top Trending Spots</h3>
+                    <p>37 places ></p>
+                </div>
+                <div>
+                    <a href="https://www.zomato.com/pune/romantic-restaurants">
+                        <img class="im3" src="i6.avif" alt="Popular Locality">
+                    </a>
+                    <h3>Popular Locality</h3>
+                    <p>7 places ></p>
+                </div>
+                <div>
+                    <a href="https://www.zomato.com/pune/romantic-restaurants">
+                        <img class="im3" src="i5.webp" alt="Best Insta-Worthy Places">
+                    </a>
+                    <h3>Best Insta-Worthy Places</h3>
+                    <p>3 places ></p>
+                </div>
+                <div>
+                    <a href="https://www.zomato.com/pune/romantic-restaurants">
+                        <img class="im3" src="i6.avif" alt="Romantic Dining Places">
+                    </a>
+                    <h3>Romantic Dining Places</h3>
+                    <p>47 places ></p>
+                </div>
+            </div>
+        </div>
+        <div id="fivediv">
+            <h2>For better experience,download the Zomato app now</h2>
+            <hr>
+            <div id="fiveinnerdiv">
+                <a href="https://play.google.com/store/apps/details?id=com.application.zomato&hl=en_IN" target="_blank">
+                    <img src="google.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div id="sivdiv">
+            <div id="zomato1">
+                <img src="zologo.png" alt="Zomato logo">
+            </div>
+            <div id="zomato2">
+                <pre>
+                Zomato provides information, menus and user-reviews of restaurants as 
+                well as food delivery options from partner restaurants in more than 
+                1,000 Indian cities and towns, as of 2022–23.Zomato rivals Swiggy in 
+                food delivery and hyperlocal space.
+            </pre>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
